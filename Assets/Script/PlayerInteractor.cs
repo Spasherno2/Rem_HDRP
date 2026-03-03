@@ -74,6 +74,7 @@ public class PlayerInteractor : MonoBehaviour
         {
             if (promptUI != null) promptUI.Show(currentTarget.GetPromptText());
 
+
             if (Input.GetKeyDown(currentTarget.InteractionKey))
             {
                 currentTarget.Interact(this);

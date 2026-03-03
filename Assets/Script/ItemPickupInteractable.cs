@@ -28,5 +28,11 @@ public class ItemPickupInteractable : MonoBehaviour, IInteractable
         {
             Debug.Log("Inventory is full!");
         }
+        GameEvents.RaiseItemPickedUp(item);
+
+        if (item.autoEquipOnPickup && interactor.Equipment != null)
+        {
+            interactor.Equipment.EquipSlot(slot);
+        }
     }
 }
