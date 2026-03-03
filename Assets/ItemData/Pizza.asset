@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012e13d9c16d9d64eac4dc5baae834ba, type: 3}
+  m_Name: Pizza
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Pizza
+  description: Pizza
+  inHandPrefab: {fileID: 1728772748170624, guid: 76585dba3314f224f9db50d0dde3c01a, type: 3}
+  pickupSfx: {fileID: 0}
+  equipSfx: {fileID: 8300000, guid: b5e3e5e4252fa7749aa660166e8b844f, type: 3}
+  unequipSfx: {fileID: 0}
+  pickupVolume: 1
+  equipVolume: 0.49
+  unequipVolume: 1
